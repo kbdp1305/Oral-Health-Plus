@@ -33,16 +33,16 @@ class MainActivity : AppCompatActivity() {
             val displayName = currentUser.displayName
             binding.tvUsername.text = "$displayName"
 
-//            binding.btnLogout.setOnClickListener {
-//                auth.signOut()
-//                val googleSignInClient = GoogleSignIn.getClient(this, GoogleSignInOptions.DEFAULT_SIGN_IN)
-//                googleSignInClient.signOut().addOnCompleteListener {
-//                    val logoutIntent = Intent(this, LoginActivity::class.java)
-//                    logoutIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-//                    startActivity(logoutIntent)
-//                    finish()
-//                }
-//            }
+            binding.logoutBtn.setOnClickListener {
+                auth.signOut()
+                val googleSignInClient = GoogleSignIn.getClient(this, GoogleSignInOptions.DEFAULT_SIGN_IN)
+                googleSignInClient.signOut().addOnCompleteListener {
+                    val logoutIntent = Intent(this, LoginActivity::class.java)
+                    logoutIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                    startActivity(logoutIntent)
+                    finish()
+                }
+            }
         }
     }
 }
