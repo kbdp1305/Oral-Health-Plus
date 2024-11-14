@@ -10,7 +10,6 @@ import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
-import com.example.oraldiseasesapp.gemini.ChatbotActivity
 import com.example.oraldiseasesapp.R
 import com.example.oraldiseasesapp.databinding.ActivityOnBoardingBinding
 import com.example.oraldiseasesapp.video.ListVideoActivity

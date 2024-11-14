@@ -15,6 +15,12 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField(
+            "String",
+            "GOOGLE_API_KEY",
+            "\"${project.findProperty("GOOGLE_API_KEY")}\""
+        )
     }
 
     buildTypes {
@@ -35,6 +41,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
@@ -52,6 +59,8 @@ dependencies {
     implementation(libs.lottie)
     implementation(libs.androidx.viewPager2)
     implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
 
     // Gemini
     implementation("com.google.ai.client.generativeai:generativeai:0.7.0")

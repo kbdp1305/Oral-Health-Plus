@@ -3,8 +3,8 @@ package com.example.oraldiseasesapp.video
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.oraldiseasesapp.R
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.oraldiseasesapp.chat.ChatRouteActivity
 import com.example.oraldiseasesapp.databinding.ActivityListVideoBinding
 
 class ListVideoActivity : AppCompatActivity() {
@@ -25,5 +25,11 @@ class ListVideoActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.rvVideo.adapter = adapter
+
+        binding.test.setOnClickListener {
+            val intent = Intent(this, ChatRouteActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 }
