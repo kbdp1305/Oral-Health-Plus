@@ -56,9 +56,17 @@ dependencies {
     // Gemini
     implementation("com.google.ai.client.generativeai:generativeai:0.7.0")
 
+    // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
 
+    // Youtube
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.1")
 
+    // Cardview
+    implementation("androidx.cardview:cardview:1.0.0")
+
+    // Glide
+    implementation("com.github.bumptech.glide:glide:4.12.0")
 }

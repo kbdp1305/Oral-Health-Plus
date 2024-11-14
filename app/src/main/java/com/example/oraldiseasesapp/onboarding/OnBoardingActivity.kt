@@ -13,6 +13,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.example.oraldiseasesapp.gemini.ChatbotActivity
 import com.example.oraldiseasesapp.R
 import com.example.oraldiseasesapp.databinding.ActivityOnBoardingBinding
+import com.example.oraldiseasesapp.video.ListVideoActivity
 
 class OnBoardingActivity : AppCompatActivity() {
 
@@ -39,7 +40,7 @@ class OnBoardingActivity : AppCompatActivity() {
                 OnBoardingItem(
                     R.raw.animation3,
                     "Enjoy The App!",
-                    " Sudah siap menjaga kesehatan mulut? Mulai dengan memilih fitur yang ingin Anda gunakan. Jangan ragu untuk menjelajahi aplikasi ini lebih lanjut!"
+                    "Ready to take care of your oral health? Start by selecting the features you want to use. Feel free to explore the app further!"
                 )
             )
         )
@@ -58,7 +59,7 @@ class OnBoardingActivity : AppCompatActivity() {
             if (binding.onboardingViewPager.currentItem + 1 < onboardingAdapter.itemCount) {
                 binding.onboardingViewPager.currentItem += binding.onboardingViewPager.currentItem
             } else {
-                val intent = Intent(this, ChatbotActivity::class.java)
+                val intent = Intent(this, ListVideoActivity::class.java)
                 startActivity(intent)
             }
         }
