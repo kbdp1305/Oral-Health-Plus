@@ -41,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
         // Set up the sign-in button listener
-        binding.buttonSignin.setOnClickListener {
+        binding.buttonGoogleSignin.setOnClickListener {
             signInWithGoogle()
         }
     }
