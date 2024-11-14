@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".LoginActivity">
 
     <!-- Welcome Text -->
@@ -123,8 +124,21 @@
         android:background="@drawable/gradient_color"
         android:textSize="18sp"
         android:text="Login"
-        android:paddingVertical="12dp"
+        android:paddingVertical="10dp"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"/>
 
+    <TextView
+        android:id="@+id/tv_regis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_text"
+        android:fontFamily="@font/poppins_reguler"
+        android:textColor="#212121"
+        app:layout_constraintTop_toBottomOf="@id/button_signin"
+        app:layout_constraintStart_toStartOf="@id/button_signin"
+        app:layout_constraintEnd_toEndOf="@id/button_signin"
+        android:layout_marginTop="10dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

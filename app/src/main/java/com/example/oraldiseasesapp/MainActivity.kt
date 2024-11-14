@@ -29,20 +29,20 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         } else {
-            val email = currentUser.email
+//            val email = currentUser.email
             val displayName = currentUser.displayName
-            binding.tvHome.text = "$email\n$displayName"
+            binding.tvUsername.text = "$displayName"
 
-            binding.btnLogout.setOnClickListener {
-                auth.signOut()
-                val googleSignInClient = GoogleSignIn.getClient(this, GoogleSignInOptions.DEFAULT_SIGN_IN)
-                googleSignInClient.signOut().addOnCompleteListener {
-                    val logoutIntent = Intent(this, LoginActivity::class.java)
-                    logoutIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                    startActivity(logoutIntent)
-                    finish()
-                }
-            }
+//            binding.btnLogout.setOnClickListener {
+//                auth.signOut()
+//                val googleSignInClient = GoogleSignIn.getClient(this, GoogleSignInOptions.DEFAULT_SIGN_IN)
+//                googleSignInClient.signOut().addOnCompleteListener {
+//                    val logoutIntent = Intent(this, LoginActivity::class.java)
+//                    logoutIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+//                    startActivity(logoutIntent)
+//                    finish()
+//                }
+//            }
         }
     }
 }
