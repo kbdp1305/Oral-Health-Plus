@@ -90,19 +90,8 @@ Result Display → User Actions →
 - ✅ Loss = **0.1420**  
 - 🚀 Mobile-optimized AI inference under 200 ms per image  
 - 🧩 Fully functional app prototype (80 % completed with chatbot integration in progress)  
-- 🏅 Submitted to **National Data Science Competition 2024 – Data Academy Indonesia**
+- 🏅 Won 3rd Place at **National Data Science Competition 2024 – Data Academy Indonesia**
 
----
-
-## 🧩 Future Plans & Roadmap
-| Phase | Goal | Status |
-|:--|:--|:--|
-| Q1 2024 | Model Training & Validation | ✅ Done |
-| Q2 2024 | Mobile App Integration | ✅ Done |
-| Q3 2024 | Chatbot Enhancement (Gemini API) | 🔄 Ongoing |
-| Q4 2024 | App Release & Beta Testing | 🟡 Planned |
-
----
 
 ## 🧾 References
 - World Health Organization, *Global Status Report on Oral Health 2022*.  
@@ -116,7 +105,7 @@ Result Display → User Actions →
 | Name | Role | Institution |
 |:--|:--|:--|
 | **Ridwan Akmal** | Team Leader & Developer | Universitas Gadjah Mada |
-| **Krisna Bayu Dharma Putra** | AI/ML Engineer | Universitas Gadjah Mada |
+| **Krisna Bayu Dharma Putra** | Artificial Intelligence/ Machine Learning Engineer | Universitas Gadjah Mada |
 | **Rahul Rahmatullah** | Backend Engineer | Universitas Gadjah Mada |
 | **Antonius Krisargo Wisnuaji Nugroho** | Mobile Developer | Universitas Gadjah Mada |
 
