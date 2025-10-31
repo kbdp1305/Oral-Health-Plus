@@ -105,7 +105,7 @@ Result Display → User Actions →
 | Name | Role | Institution |
 |:--|:--|:--|
 | **Ridwan Akmal** | Team Leader & Developer | Universitas Gadjah Mada |
-| **Krisna Bayu Dharma Putra** | Artificial Intelligence/ Machine Learning Engineer | Universitas Gadjah Mada |
+| **Krisna Bayu Dharma Putra** | Artificial Intelligence / Machine Learning Engineer | Universitas Gadjah Mada |
 | **Rahul Rahmatullah** | Backend Engineer | Universitas Gadjah Mada |
 | **Antonius Krisargo Wisnuaji Nugroho** | Mobile Developer | Universitas Gadjah Mada |
 
